@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Build the Docker image on the Jenkins worker.') {
+      steps {
+        sh 'ls -la'
+      }
+    }
+
   }
 }
