@@ -11,6 +11,6 @@ COPY . .
 # Expose the port the app runs on
 EXPOSE 3000
 
-# Use CMD only to define the default behavior
+# Use CMD only to define the default behavior /////
 CMD ["npm", "start"]
 
